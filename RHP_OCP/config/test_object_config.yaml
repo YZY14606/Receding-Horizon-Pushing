@@ -1,0 +1,121 @@
+1_object:
+  name: '1_object' 
+  relative_path: Data_generation/object_model/test_model/1_airplane/modified.obj
+  size: [80, 56, 19]
+  robot_theta_y: 0.2618 #pi/12
+  single_step_len: 0.07
+  single_step_theta: 0.5236 #pi/6
+  test_info:
+    test_scale: [0.13, 0.13, 0.15]
+
+2_object:
+  name: '2_object' 
+  relative_path: Data_generation/object_model/test_model/2_storage_box/modified.obj
+  size: [38, 34, 86]
+  robot_theta_y: 0.5236 #pi/6
+  single_step_len: 0.07
+  single_step_theta: 0.5236 #pi/6
+  test_info:
+    test_scale: [0.25, 0.25, 0.25]
+
+3_object:
+  name: '3_object' 
+  relative_path: Data_generation/object_model/test_model/3_tub/modified.obj
+  size: [86, 42, 28]
+  robot_theta_y: 0.5236 #pi/6
+  single_step_len: 0.07
+  single_step_theta: 0.5236 #pi/6
+  test_info:
+    test_scale: [0.12, 0.15, 0.25]
+
+4_object:  
+  name: '4_toy_bed'
+  relative_path: Data_generation/object_model/test_model/4_toy_bed/modified.obj
+  size: [89, 27 ,36] #x,y,z;cm
+  robot_theta_y: 0.2618 #pi/12
+  single_step_len: 0.07
+  single_step_theta: 0.5236 #pi/6
+  test_info:
+    test_scale: [0.1, 0.12, 0.2]
+
+5_object:
+  name: '5_object' 
+  relative_path: Data_generation/object_model/test_model/5_stepped_chair/modified.obj
+  size: [90, 30, 31]
+  robot_theta_y: 0.5236 #pi/6
+  single_step_len: 0.07
+  single_step_theta: 0.5236 #pi/6
+  test_info:
+    test_scale: [0.12, 0.2, 0.25]
+
+6_object:
+  name: '6_object' 
+  relative_path: Data_generation/object_model/test_model/6_object/modified.obj
+  size: [41, 41, 81]
+  robot_theta_y: 1.047 #pi/3
+  single_step_len: 0.07
+  single_step_theta: 0.08727 #pi/36
+  test_info:
+    test_scale: [0.2, 0.2, 0.25]
+
+
+7_object:
+  name: '7_object' 
+  relative_path: Data_generation/object_model/test_model/7_object/modified.obj
+  size: [31, 31, 89]
+  robot_theta_y: 0.5236 #pi/6
+  single_step_len: 0.07
+  single_step_theta: 0.5236 #pi/6
+  test_info:
+    test_scale: [0.2, 0.2, 0.2]
+
+8_object:
+  name: '8_object'
+  relative_path: Data_generation/object_model/test_model/8_object/modified.obj
+  size: [53, 55, 64]
+  robot_theta_y: 1.047 #pi/3
+  single_step_len: 0.07
+  single_step_theta: 0.5236 #pi/6
+  test_info:
+    test_scale: [0.2, 0.16, 0.2]
+
+9_object:
+  name: '9_object' 
+  relative_path: Data_generation/object_model/test_model/9_object/modified.obj
+  size: [41, 41, 81]
+  robot_theta_y: 0.5236 #pi/6
+  single_step_len: 0.07
+  single_step_theta: 0.5236 #pi/6
+  test_info:
+    test_scale: [0.25, 0.2, 0.25]
+
+
+10_object:
+  name: '10_object' 
+  relative_path: Data_generation/object_model/test_model/10_object/modified.obj
+  size: [63, 48, 60]
+  robot_theta_y: 1.047 #pi/3
+  single_step_len: 0.07
+  single_step_theta: 0.5236 #pi/6
+  test_info:
+    test_scale: [0.16, 0.16, 0.16]
+
+11_object:
+  name: '11_object' 
+  relative_path: Data_generation/object_model/test_model/11_object/modified.obj
+  size: [76, 26, 58]
+  robot_theta_y: 0.5236 #pi/6
+  single_step_len: 0.07
+  single_step_theta: 0.5236 #pi/6
+  test_info:
+    test_scale: [0.15, 0.15, 0.15]
+
+12_object:
+  name: '12_object' 
+  relative_path: Data_generation/object_model/test_model/12_object/modified.obj
+  size: [53, 42, 73]
+  robot_theta_y: 1.047 #pi/3
+  single_step_len: 0.07
+  single_step_theta: 0.5236 #pi/6
+  test_info:
+    test_scale: [0.2, 0.2, 0.2]

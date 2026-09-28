@@ -1,0 +1,15 @@
+rospkg==1.6.0
+catkin_pkg==1.0.0
+imutils==0.5.4
+open3d==0.19.0
+coacd==1.0.5
+trimesh==4.6.2
+wandb==0.19.8
+rtree==1.4.0
+python-fcl==0.7.0.8
+pyglet==1.5.28
+shapely==2.1.1
+opencv-python==4.11.0.86
+setuptools==78.1.1
+openpyxl==3.1.5
+mani_skill==3.0.0b20

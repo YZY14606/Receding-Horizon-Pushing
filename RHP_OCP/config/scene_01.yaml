@@ -1,0 +1,181 @@
+1_object:  
+  name: '1_lamp'
+  relative_path: Data_generation/object_model/train_model/1_lamp/model/modified.obj
+  size: [38 ,38 ,85] #x,y,z;cm
+  scale: [0.25, 0.42]
+  robot_theta_y: 1.048 #pi/3
+  single_step_len: 0.07
+  single_step_theta: 0.08727 #pi/36
+  obstacle_info:
+    is_obstacle: false
+    obstacle_scale: [0.31, 0.31, 0.31]
+    position: [0.25, -0.35, 0] # Height need to be determined in para_config.py
+    orientation: [0, 0, 0] # euler
+  test_info:
+    test_scale: [0.3, 0.3, 0.3]
+
+2_object:
+  name: '2_cup'
+  relative_path: Data_generation/object_model/train_model/2_cup/models/modified.obj
+  size: [68 ,45 ,58]
+  scale: [0.15, 0.28]
+  robot_theta_y: 0.5236 #pi/6
+  single_step_len: 0.07
+  single_step_theta: 0.5236 #pi/6
+  obstacle_info:
+    is_obstacle: false
+    obstacle_scale: [0.21, 0.21, 0.21]
+    position: [-0.1, 0.2, 0] # Height need to be determined in para_config.py
+    orientation: [0, 0, 0] # euler
+  test_info:
+    test_scale: [0.16,0.16,0.16]
+
+3_object:
+  name: '3_wine_bottle'
+  relative_path: Data_generation/object_model/train_model/3_wine_bottle/models/modified.obj
+  size: [21 ,21 ,95]
+  scale: [0.21, 0.32]
+  robot_theta_y: 0.5236 #pi/6
+  single_step_len: 0.07
+  single_step_theta: 0.08727 #pi/36
+  obstacle_info:
+    is_obstacle: false
+    obstacle_scale: [0.25, 0.25, 0.25]
+    position: [-0.15, 0.7, 0] # Height need to be determined in para_config.py
+    orientation: [0, 0, 0] # euler
+  test_info:
+    test_scale: [0.25,0.25,0.25]
+
+4_object:
+  name: '4_plate'
+  relative_path: Data_generation/object_model/train_model/4_plate/models/modified.obj
+  size: [70 ,70 ,13]
+  scale: [0.25, 0.4]
+  robot_theta_y: 0
+  single_step_len: 0.07
+  single_step_theta: 0.08727 #pi/36
+  obstacle_info:
+    is_obstacle: false
+    obstacle_scale: [0.2, 0.2, 0.2]
+    position: [0, 0.3, 0] # Height need to be determined in para_config.py
+    orientation: [0, 0, 0] # euler
+  test_info:
+    test_scale: [0.12,0.12,0.12] # Need to modify the code
+
+5_object:
+  name: '5_complex_shelf'
+  relative_path: Data_generation/object_model/train_model/5_complex_shelf/models/modified.obj
+  size: [64 ,22, 74]
+  scale: [0.14, 0.38]
+  robot_theta_y: 1.048 #pi/3
+  single_step_len: 0.07
+  single_step_theta: 0.5236 #pi/6
+  obstacle_info:
+    is_obstacle: false
+    obstacle_scale: [0.22, 0.22, 0.22]
+    position: [0.2, 0.45, 0] 
+    orientation: [0, 0, 0]
+  test_info:
+    test_scale: [0.15,0.15,0.15]
+
+6_object:
+  name: '6_toy_wardrobe'
+  relative_path: Data_generation/object_model/train_model/6_toy_wardrobe/models/modified.obj
+  size: [38 ,27, 88]
+  scale: [0.1, 0.34]
+  robot_theta_y: 0.7854 #pi/4
+  single_step_len: 0.07
+  single_step_theta: 0.5236 #pi/6
+  obstacle_info:
+    is_obstacle: false
+    obstacle_scale: [0.15, 0.1, 0.2]
+    position: [0.03, -0.08, 0]
+    orientation: [1.5708, 0, 0]
+  test_info:
+    test_scale: [0.2 ,0.2, 0.2]
+
+7_object:
+  name: '7_clock'
+  relative_path: Data_generation/object_model/train_model/7_clock/models/modified.obj
+  size: [50 ,32, 81]
+  scale: [0.24, 0.37]
+  robot_theta_y: 1.048 #pi/3
+  single_step_len: 0.07
+  single_step_theta: 0.5236 #pi/6
+  obstacle_info:
+    is_obstacle: false
+    obstacle_scale: [0.3, 0.3, 0.3]
+    position: [0.35, 0.15, 0] 
+    orientation: [0, 0, 3.141592653589793]
+  test_info:
+    test_scale: [0.2,0.2,0.2] # Need to modify the code
+
+8_object:
+  name: '8_toy_chair'
+  relative_path: Data_generation/object_model/train_model/8_toy_chair/models/modified.obj
+  size: [82 ,37 ,46]
+  scale: [0.18, 0.37]
+  robot_theta_y: 1.048 #pi/3
+  single_step_len: 0.07
+  single_step_theta: 0.5236 #pi/6
+  obstacle_info:
+    is_obstacle: false
+    obstacle_scale: [0.2, 0.2, 0.1]
+    position: [-0.42, 0.06, 0] 
+    orientation: [0, 0, 3.141592653589793]
+  test_info:
+    test_scale: [0.12,0.12,0.12] # Need to modify the code
+
+9_object:
+  name: '9_lamp_with_curve'
+  relative_path: Data_generation/object_model/train_model/9_lamp_with_curve/models/modified.obj
+  size: [18 ,18 ,97]
+  scale: [0.21, 0.41]
+  robot_theta_y: 0.5236 #pi/6
+  single_step_len: 0.07
+  single_step_theta: 0.08727 #pi/36
+  obstacle_info:
+    is_obstacle: false
+    obstacle_scale: [0.3, 0.3, 0.3]
+    position: [-0.1, -0.1, 0]
+    orientation: [0, 0, 0]
+  test_info:
+    test_scale: [0.3,0.3,0.3]
+
+
+10_object:
+  name: '10_phone'
+  relative_path: Data_generation/object_model/train_model/10_phone/models/modified.obj
+  size: [88, 43, 15]
+  scale: [0.1,0.16]
+  robot_theta_y: 0
+  single_step_len: 0.07
+  single_step_theta: 0.5236 #pi/6
+  obstacle_info:
+    is_obstacle: false
+    obstacle_scale: [0.13, 0.13, 0.13]
+    position: [-0.15, -0.28, 0] 
+    orientation: [0, 0, 0]
+  test_info:
+    test_scale: [0.11, 0.11, 0.11]
+
+
+11_object:
+  name: '11_keyboard'
+  relative_path: Data_generation/object_model/obstacle_model/train_11_keyboard/modified.obj
+  size: [93 , 37 , 7]
+  scale: [0.16,0.3]
+  obstacle_info:
+    is_obstacle: false
+    obstacle_scale: [0.2, 0.17, 0.3]
+    position: [-0.53, -0.4, 0]
+    orientation: [0, 0, 1.5708]
+
+goal_pose:
+  xyz: [-0.25, 0.35, 0]
+  euler_angle: [0,0, 1.5708]
+
+start_pose:
+  xyz: [-0.25, -0.3, 0.01]
+
+random_radius: [0.025]

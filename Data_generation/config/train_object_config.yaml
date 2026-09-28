@@ -1,0 +1,775 @@
+1_object:  
+  name: '1_lamp'
+  relative_path: train_model/1_lamp/model/modified.obj
+  size: [38 ,38 ,85] #x,y,z;cm
+  scale: [0.25, 0.42]
+  robot_theta_y: 1.048 #pi/3
+  obstacle_info:
+    is_obstacle: True
+    obstacle_scale: [0.31, 0.31, 0.31]
+    position: [0.25, -0.35, 0] # Height need to be determined in para_config.py
+    orientation: [0, 0, 0] # euler
+  test_info:
+    test_scale: [0.3, 0.3, 0.3]
+
+2_object:
+  name: '2_cup'
+  relative_path: train_model/2_cup/models/modified.obj
+  size: [45 ,68 ,58]
+  scale: [0.12, 0.25]
+  robot_theta_y: 0.5236 #pi/6
+  obstacle_info:
+    is_obstacle: false
+    obstacle_scale: [0.21, 0.21, 0.21]
+    position: [-0.1, 0.2, 0] # Height need to be determined in para_config.py
+    orientation: [0, 0, 0] # euler
+  test_info:
+    test_scale: [0.16,0.16,0.16]
+
+3_object:
+  name: '3_wine_bottle'
+  relative_path: train_model/3_wine_bottle/models/modified.obj
+  size: [21 ,21 ,95]
+  scale: [0.21, 0.32]
+  robot_theta_y: 1.048 #pi/3
+  obstacle_info:
+    is_obstacle: True
+    obstacle_scale: [0.25, 0.25, 0.25]
+    position: [-0.15, 0.7, 0] # Height need to be determined in para_config.py
+    orientation: [0, 0, 0] # euler
+  test_info:
+    test_scale: [0.25,0.25,0.25]
+
+4_object:
+  name: '4_plate'
+  relative_path: train_model/4_plate/models/modified.obj
+  size: [70 ,70 ,13]
+  scale: [0.1, 0.2]
+  robot_theta_y: 0
+  obstacle_info:
+    is_obstacle: True
+    obstacle_scale: [0.2, 0.2, 0.2]
+    position: [0, 0.3, 0] # Height need to be determined in para_config.py
+    orientation: [0, 0, 0] # euler
+  test_info:
+    test_scale: [0.12, 0.12, 0.12] # Need to modify the code
+
+5_object:
+  name: '5_complex_shelf'
+  relative_path: train_model/5_complex_shelf/models/modified.obj
+  size: [64 ,22, 74]
+  scale: [0.12, 0.2]
+  robot_theta_y: 1.048 #pi/3
+  obstacle_info:
+    is_obstacle: True
+    obstacle_scale: [0.22, 0.22, 0.22]
+    position: [0.2, 0.45, 0]
+    orientation: [0, 0, 0]
+  test_info:
+    test_scale: [0.15,0.15,0.15]
+
+6_object:
+  name: '6_toy_wardrobe'
+  relative_path: train_model/6_toy_wardrobe/models/modified.obj
+  size: [38 ,27, 88]
+  scale: [0.1, 0.34]
+  robot_theta_y: 0.7854 #pi/4
+  obstacle_info:
+    is_obstacle: True
+    obstacle_scale: [0.15, 0.1, 0.2]
+    position: [0.03, -0.05, 0]
+    orientation: [1.5708, 0, 0]
+  test_info:
+    test_scale: [0.2 ,0.2, 0.2]
+
+7_object:
+  name: '7_clock'
+  relative_path: train_model/7_clock/models/modified.obj
+  size: [50 ,32, 81]
+  scale: [0.12, 0.3]
+  robot_theta_y: 1.048 #pi/3
+  obstacle_info:
+    is_obstacle: True
+    obstacle_scale: [0.3, 0.3, 0.3]
+    position: [0.35, 0.15, 0] 
+    orientation: [0, 0, 3.141592653589793]
+  test_info:
+    test_scale: [0.2,0.2,0.2] # Need to modify the code
+
+8_object:
+  name: '8_toy_chair'
+  relative_path: train_model/8_toy_chair/models/modified.obj
+  size: [82 ,37 ,46]
+  scale: [0.1, 0.2]
+  robot_theta_y: 1.048 #pi/3
+  obstacle_info:
+    is_obstacle: True
+    obstacle_scale: [0.2, 0.2, 0.1]
+    position: [-0.42, 0.06, 0] 
+    orientation: [0, 0, 3.141592653589793]
+  test_info:
+    test_scale: [0.12,0.12,0.12] # Need to modify the code
+
+9_object:
+  name: '9_lamp_with_curve'
+  relative_path: train_model/9_lamp_with_curve/models/modified.obj
+  size: [18 ,18 ,97]
+  scale: [0.21, 0.41]
+  robot_theta_y: 1.048 #pi/3
+  obstacle_info:
+    is_obstacle: false
+    obstacle_scale: [0.3, 0.3, 0.3]
+    position: [-0.1, -0.1, 0]
+    orientation: [0, 0, 0]
+  test_info:
+    test_scale: [0.3,0.3,0.3]
+
+
+10_object:
+  name: '10_phone'
+  relative_path: train_model/10_phone/models/modified.obj
+  size: [43 , 88 , 15]
+  scale: [0.1,0.16]
+  robot_theta_y: 0 
+  obstacle_info:
+    is_obstacle: True
+    obstacle_scale: [0.13, 0.13, 0.13]
+    position: [-0.15, -0.25, 0]
+    orientation: [0, 0, 1.5708]
+  test_info:
+    test_scale: [0.11, 0.11, 0.11]
+
+11_object:
+  name: '11_object' 
+  relative_path: train_model/11_object/modified.obj
+  size: [55, 55, 61]
+  scale: [0.1, 0.22]
+  robot_theta_y: 1.048 #pi/3
+
+12_object:
+  name: '12_object' 
+  relative_path: train_model/12_object/modified.obj
+  size: [66, 26, 69]
+  scale: [0.12,0.4]
+  robot_theta_y: 1.048 #pi/3
+
+13_object:
+  name: '13_object' 
+  relative_path: train_model/13_object/modified.obj
+  size: [85, 40, 32]
+  scale: [0.1, 0.15]
+  robot_theta_y: 0
+
+14_object:
+  name: '14_object' 
+  relative_path: train_model/14_object/modified.obj
+  size: [66, 61, 42]
+  scale: [0.12,0.4]
+  robot_theta_y: 1.048 #pi/3
+
+
+15_object:
+  name: '15_object' 
+  relative_path: train_model/15_object/modified.obj
+  size: [55, 55, 61]
+  scale: [0.15,0.4]
+  robot_theta_y: 1.048 #pi/3
+
+16_object:
+  name: '16_object' 
+  relative_path: train_model/16_object/modified.obj
+  size: [73, 57, 35]
+  scale: [0.12,0.35]
+  robot_theta_y: 1.048 #pi/3
+
+
+17_object:
+  name: '17_object' 
+  relative_path: train_model/17_object/modified.obj
+  size: [67, 67, 29]
+  scale: [0.12,0.35]
+  robot_theta_y: 1.048 #pi/3
+
+18_object:
+  name: '18_object' 
+  relative_path: train_model/18_object/modified.obj
+  size: [79, 43, 42]
+  scale: [0.12,0.2]
+  robot_theta_y: 1.048 #pi/3
+
+19_object:
+  name: '19_object' 
+  relative_path: train_model/19_object/modified.obj
+  size: [67, 67, 31]
+  scale: [0.1,0.2]
+  robot_theta_y: 0.524 #pi/6
+
+20_object:
+  name: '20_object' 
+  relative_path: train_model/20_object/modified.obj
+  size: [45, 45, 76]
+  scale: [0.1,0.2]
+  robot_theta_y: 0.524 #pi/6
+
+21_object:
+  name: '21_object' 
+  relative_path: train_model/21_object/modified.obj
+  size: [69, 69, 19]
+  scale: [0.1,0.2]
+  robot_theta_y: 0
+
+22_object:
+  name: '22_object' 
+  relative_path: train_model/22_object/modified.obj
+  size: [75, 41, 50]
+  scale: [0.1,0.2] #[0.1,0.4]
+  robot_theta_y: 1.048 #pi/3
+
+23_object:
+  name: '23_object' 
+  relative_path: train_model/23_object/modified.obj
+  size: [57, 75, 30]
+  scale: [0.1,0.2]
+  robot_theta_y: 1.048 #pi/3
+
+24_object:
+  name: '24_object' 
+  relative_path: train_model/24_object/modified.obj
+  size: [56, 56, 60]
+  scale: [0.1,0.2]
+  robot_theta_y: 1.048 #pi/3
+
+25_object:
+  name: '25_object' 
+  relative_path: train_model/25_object/modified.obj
+  size: [64, 48, 59]
+  scale: [0.12,0.35]
+  robot_theta_y: 1.048 #pi/3
+
+26_object:
+  name: '26_object' 
+  relative_path: train_model/26_object/modified.obj
+  size: [67, 67, 30]
+  scale: [0.12,0.35]
+  robot_theta_y: 1.048 #pi/3
+
+27_object:
+  name: '27_object' 
+  relative_path: train_model/27_object/modified.obj
+  size: [55, 62, 54]
+  scale: [0.1,0.2]
+  robot_theta_y: 1.048 #pi/3
+
+28_object:
+  name: '28_object' 
+  relative_path: train_model/28_object/modified.obj
+  size: [75, 63, 18]
+  scale: [0.1,0.3]
+  robot_theta_y: 0
+
+29_object:
+  name: '29_object' 
+  relative_path: train_model/29_object/modified.obj
+  size: [92, 17, 34]
+  scale: [0.12,0.4]
+  robot_theta_y: 1.048 #pi/3
+
+30_object:
+  name: '30_object' 
+  relative_path: train_model/30_object/modified.obj
+  size: [61, 61, 49]
+  scale: [0.1, 0.2]
+  robot_theta_y: 1.048 #pi/3
+
+31_object:
+  name: '31_object' 
+  relative_path: train_model/31_object/modified.obj
+  size: [76, 40, 50]
+  scale: [0.1, 0.2]
+  robot_theta_y: 1.048 #pi/3
+
+32_object:
+  name: '32_object' 
+  relative_path: train_model/32_object/modified.obj
+  size: [55, 55, 61]
+  scale: [0.12, 0.25]
+  robot_theta_y: 1.048 #pi/3
+
+33_object:
+  name: '33_object' 
+  relative_path: train_model/33_object/modified.obj
+  size: [55, 55, 61]
+  scale: [0.15, 0.25]
+  robot_theta_y: 1.048 #pi/3
+
+34_object:
+  name: '34_object' 
+  relative_path: train_model/34_object/modified.obj
+  size: [41, 85, 31]
+  scale: [0.1, 0.2]
+  robot_theta_y: 1.048 #pi/3
+
+35_object:
+  name: '35_object' 
+  relative_path: train_model/35_object/modified.obj
+  size: [68, 68, 25]
+  scale: [0.1, 0.2]
+  robot_theta_y: 1.048 #pi/3
+
+36_object:
+  name: '36_object' 
+  relative_path: train_model/36_object/modified.obj
+  size: [64, 64, 42]
+  scale: [0.15, 0.3]
+  robot_theta_y: 1.57 #pi/3
+
+37_object:
+  name: '37_object' 
+  relative_path: train_model/37_object/modified.obj
+  size: [83, 29, 46]
+  scale: [0.1, 0.2] # [0.2, 0.4]
+  robot_theta_y: 1.048 #pi/3
+
+38_object:
+  name: '38_object' 
+  relative_path: train_model/38_object/modified.obj
+  size: [84, 43, 31]
+  scale: [0.15, 0.3]
+  robot_theta_y: 1.048 #pi/3
+
+39_object:
+  name: '39_object' 
+  relative_path: train_model/39_object/modified.obj
+  size: [55, 51, 64]
+  scale: [0.15,0.4]
+  robot_theta_y: 1.048 #pi/3
+
+40_object:
+  name: '40_object' 
+  relative_path: train_model/40_object/modified.obj
+  size: [83, 28, 46]
+  scale: [0.1,0.35]
+  robot_theta_y: 1.048 #pi/3
+
+41_object:
+  name: '41_object' 
+  relative_path: train_model/41_object/modified.obj
+  size: [68, 68, 27]
+  scale: [0.15,0.3]
+  robot_theta_y: 1.048 #pi/3
+
+42_object:
+  name: '42_object' 
+  relative_path: train_model/42_object/modified.obj
+  size: [67, 66, 31]
+  scale: [0.15,0.3]
+  robot_theta_y: 1.048 #pi/3
+
+43_object:
+  name: '43_object' 
+  relative_path: train_model/43_object/modified.obj
+  size: [40, 40, 81]
+  scale: [0.2,0.4]
+  robot_theta_y: 1.57 #pi/3
+
+44_object:
+  name: '44_object' 
+  relative_path: train_model/44_object/modified.obj
+  size: [67, 65, 35]
+  scale: [0.1,0.2]
+  robot_theta_y: 1.048 #pi/3
+
+45_object:
+  name: '45_object' 
+  relative_path: train_model/45_object/modified.obj
+  size: [66, 66, 33]
+  scale: [0.2,0.4]
+  robot_theta_y: 1.048 #pi/3
+
+46_object:
+  name: '46_object' 
+  relative_path: train_model/46_object/modified.obj
+  size: [58, 58, 55]
+  scale: [0.15,0.4]
+  robot_theta_y: 1.048 #pi/3
+
+47_object:
+  name: '47_object' 
+  relative_path: train_model/47_object/modified.obj
+  size: [53, 63, 56]
+  scale: [0.15,0.4]
+  robot_theta_y: 1.048 #pi/3
+
+48_object:
+  name: '48_object' 
+  relative_path: train_model/48_object/modified.obj
+  size: [66, 66, 35]
+  scale: [0.15,0.3]
+  robot_theta_y: 1.048 #pi/3
+
+
+49_object:
+  name: '49_object' 
+  relative_path: train_model/49_object/modified.obj
+  size: [80, 45, 38]
+  scale: [0.1,0.2]
+  robot_theta_y: 1.048 #pi/3
+
+50_object:
+  name: '50_object' 
+  relative_path: train_model/50_object/modified.obj
+  size: [59, 59, 54]
+  scale: [0.12, 0.25]
+  robot_theta_y: 1.048 #pi/3
+
+51_object:
+  name: '51_object' 
+  relative_path: train_model/51_object/modified.obj
+  size: [68, 68, 26]
+  scale: [0.12, 0.3]
+  robot_theta_y: 1.048 #pi/3
+
+
+52_object:
+  name: '52_object' 
+  relative_path: train_model/52_object/modified.obj
+  size: [24, 24, 93]
+  scale: [0.2,0.4]
+  robot_theta_y: 1.048 #pi/3
+
+53_object:
+  name: '53_object' 
+  relative_path: train_model/53_object/modified.obj
+  size: [64, 72, 25]
+  scale: [0.1,0.3]
+  robot_theta_y: 1.048 #pi/3
+
+54_object:
+  name: '54_object' 
+  relative_path: train_model/54_object/modified.obj
+  size: [54, 54, 63]
+  scale: [0.18,0.4]
+  robot_theta_y: 1.048 #pi/3
+
+55_object:
+  name: '55_object' 
+  relative_path: train_model/55_object/modified.obj
+  size: [77, 43, 44]
+  scale: [0.12,0.3]
+  robot_theta_y: 1.048 #pi/3
+
+56_object:
+  name: '56_object' 
+  relative_path: train_model/56_object/modified.obj
+  size: [64, 64, 39]
+  scale: [0.12,0.3]
+  robot_theta_y: 1.048 #pi/3
+
+57_object:
+  name: '57_object' 
+  relative_path: train_model/57_object/modified.obj
+  size: [69, 60, 40]
+  scale: [0.12,0.25]
+  robot_theta_y: 1.048 #pi/3
+
+58_object:
+  name: '58_object' 
+  relative_path: train_model/58_object/modified.obj
+  size: [93, 28, 19]
+  scale: [0.1,0.25]
+  robot_theta_y: 1.048 #pi/3
+
+59_object:
+  name: '59_object' 
+  relative_path: train_model/59_object/modified.obj
+  size: [63, 63, 42]
+  scale: [0.1,0.25]
+  robot_theta_y: 1.048 #pi/3
+
+60_object:
+  name: '60_object' 
+  relative_path: train_model/60_object/modified.obj
+  size: [65, 65, 37]
+  scale: [0.1,0.25]
+  robot_theta_y: 1.048 #pi/3
+
+61_object:
+  name: '61_object' 
+  relative_path: train_model/61_object/modified.obj
+  size: [60, 46, 63]
+  scale: [0.1,0.25]
+  robot_theta_y: 1.048 #pi/3
+
+62_object:
+  name: '62_object' 
+  relative_path: train_model/62_object/modified.obj
+  size: [69, 69, 20]
+  scale: [0.1,0.25]
+  robot_theta_y: 1.048 #pi/3
+
+63_object:
+  name: '63_object' 
+  relative_path: train_model/63_object/modified.obj
+  size: [67, 67, 29]
+  scale: [0.1,0.3]
+  robot_theta_y: 1.048 #pi/3
+
+64_object:
+  name: '64_object' 
+  relative_path: train_model/64_object/modified.obj
+  size: [54, 54, 64]
+  scale: [0.2,0.3]
+  robot_theta_y: 1.048 #pi/3
+
+65_object:
+  name: '65_object' 
+  relative_path: train_model/65_object/modified.obj
+  size: [65, 55, 51]
+  scale: [0.15,0.3]
+  robot_theta_y: 1.048 #pi/3
+
+66_object:
+  name: '66_object' 
+  relative_path: train_model/66_object/modified.obj
+  size: [72, 65, 19]
+  scale: [0.12,0.4]
+  robot_theta_y: 1.048 #pi/3
+
+
+67_object:
+  name: '67_object' 
+  relative_path: train_model/67_object/modified.obj
+  size: [69, 69, 21]
+  scale: [0.15,0.3]
+  robot_theta_y: 1.048 #pi/3
+
+68_object:
+  name: '68_object' 
+  relative_path: train_model/68_object/modified.obj
+  size: [72, 66, 17]
+  scale: [0.15,0.3]
+  robot_theta_y: 1.048 #pi/3
+
+69_object:
+  name: '69_object' 
+  relative_path: train_model/69_object/modified.obj
+  size: [35, 43, 82]
+  scale: [0.2,0.4]
+  robot_theta_y: 1.048 #pi/3
+
+70_object:
+  name: '70_object' 
+  relative_path: train_model/70_object/modified.obj
+  size: [48, 68, 54]
+  scale: [0.12,0.3]
+  robot_theta_y: 1.048 #pi/3
+
+71_object:
+  name: '71_object' 
+  relative_path: train_model/71_object/modified.obj
+  size: [79, 35, 48]
+  scale: [0.12,0.3]
+  robot_theta_y: 1.048 #pi/3
+
+72_object:
+  name: '72_object' 
+  relative_path: train_model/72_object/modified.obj
+  size: [70, 70, 10]
+  scale: [0.25,0.4]
+  robot_theta_y: 1.048 #pi/3
+
+73_object:
+  name: '73_object' 
+  relative_path: train_model/73_object/modified.obj
+  size: [61, 59, 51]
+  scale: [0.15,0.35]
+  robot_theta_y: 1.048 #pi/3
+
+74_object:
+  name: '74_object' 
+  relative_path: train_model/74_object/modified.obj
+  size: [62, 62, 45]
+  scale: [0.15,0.35]
+  robot_theta_y: 1.048 #pi/3
+
+75_object:
+  name: '75_object' 
+  relative_path: train_model/75_object/modified.obj
+  size: [20, 20, 95]
+  scale: [0.15,0.4]
+  robot_theta_y: 1.048 #pi/3
+
+76_object:
+  name: '76_object' 
+  relative_path: train_model/76_object/modified.obj
+  size: [76, 29, 57]
+  scale: [0.12,0.35]
+  robot_theta_y: 1.048 #pi/3
+
+77_object:
+  name: '77_object' 
+  relative_path: train_model/77_object/modified.obj
+  size: [61, 43, 66]
+  scale: [0.12,0.35]
+  robot_theta_y: 1.048 #pi/3
+
+78_object:
+  name: '78_object' 
+  relative_path: train_model/78_object/modified.obj
+  size: [63, 63, 44]
+  scale: [0.12,0.35]
+  robot_theta_y: 1.048 #pi/3
+
+79_object:
+  name: '79_object' 
+  relative_path: train_model/79_object/modified.obj
+  size: [60, 45, 65]
+  scale: [0.12,0.35]
+  robot_theta_y: 1.048 #pi/3
+
+80_object:
+  name: '80_object' 
+  relative_path: train_model/80_object/modified.obj
+  size: [86, 42, 26]
+  scale: [0.1,0.35]
+  robot_theta_y: 1.048 #pi/3
+
+81_object:
+  name: '81_object' 
+  relative_path: train_model/81_object/modified.obj
+  size: [59, 40, 69]
+  scale: [0.15,0.35]
+  robot_theta_y: 1.048 #pi/3
+
+82_object:
+  name: '82_object' 
+  relative_path: train_model/82_object/modified.obj
+  size: [67, 50, 53]
+  scale: [0.12,0.35]
+  robot_theta_y: 1.048 #pi/3
+
+83_object:
+  name: '83_object' 
+  relative_path: train_model/83_object/modified.obj
+  size: [75, 48, 43]
+  scale: [0.12,0.35]
+  robot_theta_y: 1.048 #pi/3
+
+84_object:
+  name: '84_object' 
+  relative_path: train_model/84_object/modified.obj
+  size: [78, 53, 30]
+  scale: [0.12,0.35]
+  robot_theta_y: 1.048 #pi/3
+
+85_object:
+  name: '85_object' 
+  relative_path: train_model/85_object/modified.obj
+  size: [57, 57, 58]
+  scale: [0.12,0.35]
+  robot_theta_y: 1.048 #pi/3
+
+86_object:
+  name: '86_object' 
+  relative_path: train_model/86_object/modified.obj
+  size: [90, 7, 41]
+  scale: [0.12,0.35]
+  robot_theta_y: 1.048 #pi/3
+
+87_object:
+  name: '87_object' 
+  relative_path: train_model/87_object/modified.obj
+  size: [63, 63, 44]
+  scale: [0.12,0.35]
+  robot_theta_y: 1.048 #pi/3
+
+88_object:
+  name: '88_object' 
+  relative_path: train_model/88_object/modified.obj
+  size: [52, 52, 66]
+  scale: [0.12,0.35]
+  robot_theta_y: 1.048 #pi/3
+
+89_object:
+  name: '89_object' 
+  relative_path: train_model/89_object/modified.obj
+  size: [59, 59, 53]
+  scale: [0.12,0.4]
+  robot_theta_y: 1.048 #pi/3
+
+90_object:
+  name: '90_object' 
+  relative_path: train_model/90_object/modified.obj
+  size: [81, 51, 25]
+  scale: [0.12,0.35]
+  robot_theta_y: 1.048 #pi/3
+
+91_object:
+  name: '91_object' 
+  relative_path: train_model/91_object/modified.obj
+  size: [68, 67, 27]
+  scale: [0.12,0.35]
+  robot_theta_y: 1.048 #pi/3
+
+92_object:
+  name: '92_object' 
+  relative_path: train_model/92_object/modified.obj
+  size: [82, 34, 45]
+  scale: [0.1,0.35]
+  robot_theta_y: 1.048 #pi/3
+
+93_object:
+  name: '93_object' 
+  relative_path: train_model/93_object/modified.obj
+  size: [59, 59, 53]
+  scale: [0.15,0.35]
+  robot_theta_y: 1.048 #pi/3
+
+94_object:
+  name: '94_object' 
+  relative_path: train_model/94_object/modified.obj
+  size: [44, 38, 81]
+  scale: [0.15,0.4]
+  robot_theta_y: 1.048 #pi/3
+
+95_object:
+  name: '95_object' 
+  relative_path: train_model/95_object/modified.obj
+  size: [50, 50, 70]
+  scale: [0.15,0.4]
+  robot_theta_y: 1.57
+
+96_object:
+  name: '96_object' 
+  relative_path: train_model/96_object/modified.obj
+  size: [70, 54, 44]
+  scale: [0.12,0.4]
+  robot_theta_y: 1.048 #pi/3
+
+97_object:
+  name: '97_object' 
+  relative_path: train_model/97_object/modified.obj
+  size: [89, 24, 37]
+  scale: [0.1,0.35]
+  robot_theta_y: 1.048 #pi/3
+
+98_object:
+  name: '98_object' 
+  relative_path: train_model/98_object/modified.obj
+  size: [65, 66, 36]
+  scale: [0.12,0.35]
+  robot_theta_y: 1.048 #pi/3
+
+99_object:
+  name: '99_object' 
+  relative_path: train_model/99_object/modified.obj
+  size: [61, 61, 48]
+  scale: [0.12,0.35]
+  robot_theta_y: 1.048 #pi/3
+
+100_object:
+  name: '100_object' 
+  relative_path: train_model/100_object/modified.obj
+  size: [73, 62, 25]
+  scale: [0.12,0.35]
+  robot_theta_y: 1.048 #pi/3
