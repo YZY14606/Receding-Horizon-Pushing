@@ -1,6 +1,6 @@
 # Receding-Horizon Pushing with Composable Object-Centric Policies
 
-[![Paper](https://img.shields.io/badge/paper-arXiv-b31b1b.svg)](https://arxiv.org/abs/2609.23439)
+[![Paper](https://img.shields.io/badge/paper-arXiv-b31b1b.svg)](https://arxiv.org/abs/2609.23439) [![Project Page](https://img.shields.io/badge/Project-Page-blue.svg)](https://yzy14606.github.io/Receding-Horizon-Pushing-Website/)
 
 This repository contains the code for the simulation version of our receding-horizon pushing method, which composes a generalizable object-centric pushing policy with stability evaluation and receding-horizon feasibility checking for reliable zero-shot long-horizon pushing across unseen objects, robot embodiments, and environments.
 
@@ -54,8 +54,6 @@ cd third_part
 git clone https://github.com/facebookresearch/sam2.git && cd sam2
 pip install -e . --no-build-isolation
 
-Download checkpoint: https://github.com/facebookresearch/sam2.
-
 # Install Object-planner
 cd third_part
 git clone https://github.com/YZY14606/new_object_planner.git
@@ -95,7 +93,6 @@ unzip checkpoints.zip
 ```
 
 ### SAM2 checkpoint
-
 Download the official SAM2 checkpoints into `third_part/sam2/checkpoints/`:
 
 ```bash
@@ -104,6 +101,9 @@ Download form link: https://dl.fbaipublicfiles.com/segment_anything_2/092824/sam
 ```
 
 ## Quick start
+
+Before the initial test, install the [object models](#optional-object-models) and [contact prediction checkpoint](#optional-contact-prediction-checkpoint).
+
 Run one trajectory for test object 1 in `scene_01`:
 
 ```bash
